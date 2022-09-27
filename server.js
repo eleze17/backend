@@ -2,7 +2,9 @@ const express = require('express')
 const Contenedor = require('./contenedor')
 const app = express()
 
-const server = app.listen(8080,()=> console.log('Servidor corriendo '))
+const PORT = process.env.PORT ||8080
+
+const server = app.listen(PORT,()=> console.log('Servidor corriendo '))
 server.on('error',error => console.log(`Error ${error}`))
 
 let contenedor = new Contenedor('productos.txt')

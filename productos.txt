@@ -1,0 +1,1 @@
+[{"id":0,"Marca":"Coca-Cola","Categoria":"Bebida","Precio":400},{"id":1,"Marca":"Ala","Categoria":"Limpieza","Precio":800},{"id":2,"Marca":"Paty","Categoria":"Congelados","Precio":1000},{"id":3,"Marca":"Toddy","Categoria":"Galletitas","Precio":200},{"id":4,"Marca":"Colgate","Categoria":"Perfumeria","Precio":300}]
